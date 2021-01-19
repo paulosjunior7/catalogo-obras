@@ -87,7 +87,7 @@ const Home = () => {
         </section>
       </main>
 
-      <section id="form">
+      {/* <section id="form">
         <form action="">
           <h3>Solicitar Orçamento!</h3>
           <div className="form-group">
@@ -116,7 +116,7 @@ const Home = () => {
           </div>
 
         </form>
-      </section>
+      </section> */}
 
       <div className="modal-overlay">
         <div className="modal">
