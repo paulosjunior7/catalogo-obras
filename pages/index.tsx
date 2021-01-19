@@ -7,42 +7,71 @@ const Home = () => {
 
   const videos = [
     {
-      title: "Formulário Animado com JS puro e CSS Animation | Mayk Brito",
-      duration: "57 min",
-      thumb: "https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg",
-      video_id: "GykTLqODQuU"
+      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Canada",
+      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
+      valor: "R$ 210.000,00",
+      status: "Concluída"
     },
     {
-      title: "Desvendando o CSS Grid na prática | Mayk Brito",
-      duration: "36 min",
-      thumb: "https://i.ytimg.com/vi/HN1UjzRSdBk/hqdefault.jpg",
-      video_id: "HN1UjzRSdBk"
+      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Canada",
+      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
+      valor: "R$ 210.000,00",
+      status: "Concluída"
     },
     {
-      title: "Array: Higher Order Functions | Mayk Brito",
-      duration: "54 min",
-      thumb: "https://i.ytimg.com/vi/rAzHvYnQ8DY/hqdefault.jpg",
-      video_id: "rAzHvYnQ8DY"
+      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Canada",
+      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
+      valor: "R$ 210.000,00",
+      status: "Concluída"
     },
     {
-      title: "O que é API? REST e RESTful? | Mayk Brito",
-      duration: "33 min",
-      thumb: "https://i.ytimg.com/vi/ghTrp1x_1As/hqdefault.jpg",
-      video_id: "ghTrp1x_1As"
+      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Canada",
+      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
+      valor: "R$ 210.000,00",
+      status: "Concluída"
     },
     {
-      title: "Desvendando a variável this no Javascript | Mayk Brito",
-      duration: "48 min",
-      thumb: "https://i.ytimg.com/vi/GSqR2i-Pq6o/hqdefault.jpg",
-      video_id: "GSqR2i-Pq6o"
+      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Canada",
+      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
+      valor: "R$ 210.000,00",
+      status: "Concluída"
     },
     {
-      title:
-        "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito",
-      duration: "33 min",
-      thumb: "https://i.ytimg.com/vi/2alg7MQ6_sI/hqdefault.jpg",
-      video_id: "2alg7MQ6_sI"
-    }
+      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Canada",
+      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
+      valor: "R$ 210.000,00",
+      status: "Concluída"
+    },
+    {
+      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Canada",
+      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
+      valor: "R$ 210.000,00",
+      status: "Concluída"
+    },
+    {
+      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Canada",
+      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
+      valor: "R$ 210.000,00",
+      status: "Concluída"
+    },
+    {
+      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Canada",
+      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
+      valor: "R$ 210.000,00",
+      status: "Concluída"
+    },
+   
+  
+  
   ];
 
 
@@ -50,37 +79,9 @@ const Home = () => {
     <>
       <GlobalStyles />
 
-      {/* <header>
-        <div className="container">
-          <img
-            src="\logo-rocketseat.svg"
-            alt="Rocketseat"
-          />
-          <div className="menu-section">
-            <div className="menu-toggle">
-              <div className="one"></div>
-              <div className="two"></div>
-              <div className="three"></div>
-            </div>
-            <nav>
-              <ul>
-                <li>
-                  <a href="#">Starter</a>
-                </li>
-                <li>
-                  <a href="#">Bootcamp</a>
-                </li>
-                <li>
-                  <a href="#">Comunidade</a>
-                </li>
-                <li>
-                  <a href="#">Blog</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header> */}
+      <header>
+        <p>JMS Construção e Projeto Engenharia</p>
+      </header>
 
       <section className="hero">
         <div className="container">
@@ -88,17 +89,8 @@ const Home = () => {
             <h2>
               Catálogo de obras em execução, concluídas e finalizadas.
           </h2>
-            {/* <p>
-              No meio de tanta informação e da quantidade de ferramentas que
-              surgem todos os dias, você precisa de alguém que te leve na direção
-              certa.
-          </p>
-            <a href="#" className="button">Quero embarcar neste foguete!</a> */}
           </div>
-          {/* <img
-            src="./images/melhores-tecnologias.svg"
-            alt=""
-          /> */}
+
         </div>
       </section>
 
@@ -106,18 +98,20 @@ const Home = () => {
         <section className="cards">
 
           {
-            videos.map(p => 
+            videos.map(p =>
               <div className="card">
                 <div className="image">
-                  <img src={p.thumb } />
+                  <img src={p.imagem} />
                 </div>
                 <div className="content">
                   <p className="title text--medium">
-                   { p.title }
-              </p>
+                    {p.endereco}
+                    {p.bairro}
+                  </p>
+                  <p className="title text--medium"></p>
                   <div className="info">
-                    <p className="text--medium">{ p.duration}</p>
-                    <p className="price text--medium">Free</p>
+                    <p className="text--medium">{p.valor}</p>
+                    <p className="price text--medium">{p.status}</p>
                   </div>
                 </div>
               </div>
@@ -130,7 +124,7 @@ const Home = () => {
 
       <section id="form">
         <form action="">
-          <h3>Quero Estudar na Rocket!</h3>
+          <h3>Solicitar Orçamento!</h3>
           <div className="form-group">
             <input className="input-control" placeholder="Nome" />
 

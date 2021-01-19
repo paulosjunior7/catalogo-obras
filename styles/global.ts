@@ -29,6 +29,17 @@ body {
 
 header {
   background-color: #7159c1;
+  height: 55px;
+  display: flex;  
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  padding-right: 32px;
+
+  p {
+    font-size: 25px;
+  }
 }
 
 header .container {
@@ -103,7 +114,7 @@ h3 {
 HERO
 ==================*/
 section.hero {
-  margin: 80px 0;
+  margin: 40px 0;
 }
 
 section.hero .container {
