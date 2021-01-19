@@ -1,44 +1,23 @@
 import react from 'react';
-
 import Header from '../components/Header'
 import GlobalStyles from '../styles/global';
+import { useRouter } from 'next/router';
+import { Casas } from '../utils/residencias'
+import Link from 'next/link'
 
 const Home = () => {
 
-  const videos = [
-    {
-      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Canada",
-      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
-      valor: "R$ 210.000,00",
-      status: "Concluída"
-    },
-    {
-      endereco: "Casa 3 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Moinho dos ventos",
-      imagem: "https://resizedimgs.zapimoveis.com.br/fit-in/800x360/vr.images.sp/df624cc2c99a38bac1804e458d35803a.jpg",
-      valor: "R$ 310.000,00",
-      status: "Concluída"
-    },
-    {
-      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Canada",
-      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
-      valor: "R$ 210.000,00",
-      status: "Concluída"
-    },
-    {
-      endereco: "Casa 3 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Moinho dos ventos",
-      imagem: "https://resizedimgs.zapimoveis.com.br/fit-in/800x360/vr.images.sp/df624cc2c99a38bac1804e458d35803a.jpg",
-      valor: "R$ 310.000,00",
-      status: "Concluída"
-    },
-   
-  
-  
-  ];
+  // const router = useRouter();
+  //   const { id } = router.query;
 
+  const router = useRouter()
+
+  function handleDetalhe(id: number) {
+     router.push({
+        pathname: 'Detalhe',
+        query: { id: id }
+    })
+  }
 
   return (
     <>
@@ -52,7 +31,7 @@ const Home = () => {
         <div className="container">
           <div>
             <h2>
-              Catálogo de obras em execução, concluídas e finalizadas.
+              Relação de casas disponíveis para venda
           </h2>
           </div>
 
@@ -63,10 +42,10 @@ const Home = () => {
         <section className="cards">
 
           {
-            videos.map(p =>
-              <div className="card">
+            Casas.map(p =>
+              <div className="card" key={p.id} onClick={() => handleDetalhe(p.id)}>
                 <div className="image">
-                  <img src={p.imagem} />
+                  <img src={p.imagens[1]} />
                 </div>
                 <div className="content">
                   <p className="title text--medium">
