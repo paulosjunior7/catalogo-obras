@@ -14,10 +14,10 @@ const Home = () => {
       status: "Concluída"
     },
     {
-      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Canada",
-      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
-      valor: "R$ 210.000,00",
+      endereco: "Casa 3 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Moinho dos ventos",
+      imagem: "https://resizedimgs.zapimoveis.com.br/fit-in/800x360/vr.images.sp/df624cc2c99a38bac1804e458d35803a.jpg",
+      valor: "R$ 310.000,00",
       status: "Concluída"
     },
     {
@@ -28,45 +28,10 @@ const Home = () => {
       status: "Concluída"
     },
     {
-      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Canada",
-      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
-      valor: "R$ 210.000,00",
-      status: "Concluída"
-    },
-    {
-      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Canada",
-      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
-      valor: "R$ 210.000,00",
-      status: "Concluída"
-    },
-    {
-      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Canada",
-      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
-      valor: "R$ 210.000,00",
-      status: "Concluída"
-    },
-    {
-      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Canada",
-      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
-      valor: "R$ 210.000,00",
-      status: "Concluída"
-    },
-    {
-      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Canada",
-      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
-      valor: "R$ 210.000,00",
-      status: "Concluída"
-    },
-    {
-      endereco: "Casa 2 Quartos, 2 suítes , 110m² ",
-      bairro: "Residencial Canada",
-      imagem: "https://img.olx.com.br/images/06/069070358716009.jpg",
-      valor: "R$ 210.000,00",
+      endereco: "Casa 3 Quartos, 2 suítes , 110m² ",
+      bairro: "Residencial Moinho dos ventos",
+      imagem: "https://resizedimgs.zapimoveis.com.br/fit-in/800x360/vr.images.sp/df624cc2c99a38bac1804e458d35803a.jpg",
+      valor: "R$ 310.000,00",
       status: "Concluída"
     },
    
