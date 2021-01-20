@@ -3,7 +3,7 @@ import { Container, Card, Caroucel } from '../Detalhe/styles';
 import { useRouter } from 'next/router';
 import Carousel from 'react-img-carousel';
 
-require('react-img-carousel/lib/carousel.css');
+import 'react-img-carousel/lib/carousel.css';
 
 import { Casas } from '../../utils/residencias';
 
@@ -20,7 +20,7 @@ const Detalhe = () => {
             {
                 <div className="card" key={detalheCasa.id} onClick={() => { }}>
                     <div className="content">
-                        <Carousel viewportWidth="1024px" cellPadding={5}>
+                        <Carousel viewportWidth="750px" cellPadding={1}>
                             {
                                 detalheCasa.imagens.map(p =>
                                     <img src={p} />
