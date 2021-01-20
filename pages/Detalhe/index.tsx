@@ -3,7 +3,6 @@ import { Container, Card, Caroucel } from '../Detalhe/styles';
 import { useRouter } from 'next/router';
 import Carousel from 'react-img-carousel';
 
-import 'react-img-carousel/lib/carousel.css';
 
 import { Casas } from '../../utils/residencias';
 
@@ -14,7 +13,6 @@ const Detalhe = () => {
     const detalheCasa = Casas.find(p => p.id === Number(id));
 
     return (
-
 
         <Container>
             {
